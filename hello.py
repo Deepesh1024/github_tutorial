@@ -17,7 +17,7 @@ st.write("This is the main area where your app’s content will go.")
 text_input = st.text_input("Enter some things:")
 st.write("You entered:", text_input)
 
-number_input = st.number_input("Select a number", min_value=0, max_value=100, value=50)
+number_input = st.number_input("Select a numbers : ", min_value=0, max_value=100, value=50)
 st.write("Selected number:", number_input)
 
 # Example Button
