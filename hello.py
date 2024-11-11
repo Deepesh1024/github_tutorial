@@ -14,7 +14,7 @@ st.header("Main Content Section")
 st.write("This is the main area where your app’s content will go.")
 
 # Example Inputs
-text_input = st.text_input("Enter some text:")
+text_input = st.text_input("Enter some things:")
 st.write("You entered:", text_input)
 
 number_input = st.number_input("Select a number", min_value=0, max_value=100, value=50)
